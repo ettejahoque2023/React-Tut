@@ -1,8 +1,9 @@
-import { useState} from 'react'
+import { useEffect} from 'react'
 import './App.css'
+import Navber from '../../react-app-useEffect/src/Navber'
 
 function App() {
-  const [count, setCount]=useState(0);
+  const [count, setCount]=useState(0)
   return (
     <>
       <div>The count is {count}</div>
